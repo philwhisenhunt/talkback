@@ -7,6 +7,10 @@ class TalkBack {
 
         String userName = myObj.nextLine(); //This takes the user input
         System.out.println("Your username is " + userName);
+
+        System.out.println("And how old are you, " + userName + " ?");
+        String userAge = myObj.nextLine(); // but how to do an actual number?
+        System.out.println("You are " +userAge );
     }
 
 }
