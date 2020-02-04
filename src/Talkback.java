@@ -11,6 +11,9 @@ class TalkBack {
         System.out.println("And how old are you, " + userName + " ?");
         String userAge = myObj.nextLine(); // but how to do an actual number?
         System.out.println("You are " +userAge );
+
+        System.out.println("Great. Well welcome " + userName + ". " + "So far we know that you are " + userAge + " years old. What else should we know?");
+        String fact = myObj.nextLine();
     }
 
 }
