@@ -13,7 +13,10 @@ class TalkBack {
         System.out.println("You are " +userAge );
 
         System.out.println("Great. Well welcome " + userName + ". " + "So far we know that you are " + userAge + " years old. What else should we know?");
-        String fact = myObj.nextLine();
+        String userFact = myObj.nextLine();
+        //split into an array
+        //detect "I am" and then delete that
+        //replace it with "You are"
     }
 
 }
